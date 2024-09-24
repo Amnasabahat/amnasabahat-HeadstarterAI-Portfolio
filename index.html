@@ -5,184 +5,281 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload landing">
-		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-					<h1  id="logo" ><a href="" ></a></h1>
-					<nav id="nav">
-						<ul>
-							<li><a href="https://github.com/Amnasabahat">Github</a></li>
-							<li><a href="https://www.linkedin.com/in/amna-sabahat-6b3713253/">LinkedIn</a></li>
-							
-							<li>
-								<a href="#"></a>
-								<ul>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option 1</a></li>
-											<li><a href="#">Option 2</a></li>
-											<li><a href="#">Option 3</a></li>
-											<li><a href="#">Option 4</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>
-							<li><a href="elements.html"></a></li>
-							<li><a href="#" class=""></a></li>
-						</ul>
-					</nav>
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		#nav {
+			display: flex;
+			justify-content: center;
+			/* Center items horizontally */
+			align-items: center;
+			/* Center items vertically */
+			width: 100%;
+			/* Make sure the nav takes full width */
+		}
+
+		#nav ul {
+			display: flex;
+			gap: 10px;
+			/* Sets the gap between menu items to 10px */
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			align-items: center;
+		}
+
+		#nav li {
+			display: flex;
+			align-items: center;
+			/* Center items vertically within list items */
+		}
+
+		#nav li a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 20px;
+			border-radius: 5px;
+			transition: background-color 0.3s ease;
+			display: flex;
+			align-items: center;
+			/* Center text within the link */
+		}
+
+		#nav li a:hover {
+			background-color: #d4d1d2;
+		}
+	</style>
+</head>
+
+<body class="is-preload landing">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<header id="header">
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html" style="display: flex; justify-content: center;">Home</a></li>
+					<li><a href="#one" style="display: flex; justify-content: center;">About</a></li>
+					<li><a href="#four">Projects</a></li>
+					<li><a href="#five">Skills</a></li>
+					<li><a href="mailto:amnasabahat414@gmail.com">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Header -->
+
+
+
+		<!-- Banner -->
+		<section id="banner">
+			<div class="content">
+				<header>
+					<h2>I'm Amna Sabahat</h2>
+					<p>Aspiring AI & ML Engineer and Web developer</p>
 				</header>
+				<span class="image"><img src="images/dp.jpeg" alt="" /></span>
+			</div>
+			<a href="#one" class="goto-next scrolly">Next</a>
+		</section>
 
-			<!-- Banner -->
-				<section id="banner">
-					<div class="content">
-						<header>
-							<h2>Hi there, I'm Amna Sabahat</h2>
-							<p>Software Engineer Fellow @ Headstarter AI.</p>
-							<p>Passionate  IT Student at Ghazi University, DGK </p>
-						</header>
-						<span class="image"><img src="images/dp.jpeg" alt="" /></span>
-					</div>
-					<a href="#one" class="goto-next scrolly">Next</a>
-				</section>
+		<!-- One -->
+		<section id="one" class="spotlight style1 bottom">
+			<span class="image fit main"><img src="images/pic06.jpg" alt="" /></span>
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-12-medium">
+							<header>
+								<h2>About me</h2>
 
-			<!-- One -->
-				<section id="one" class="spotlight style1 bottom">
-					<span class="image fit main"><img src="images/pic06.jpg" alt="" /></span>
-					<div class="content">
-						<div class="container">
-							<div class="row">
-								<div class="col-4 col-12-medium">
-									<header>
-										<h2>About me</h2>
-										<p>Aspiring Software Engineer and Data Scientist </p>
-									</header>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p> A final-year BSIT student with a keen interest in Software development, AI, 
-										machine learning, and data science. My journey has been driven by a passion 
-										for leveraging technology to solve real-world problems.</p>
-								</div>
-								<div class="col-4 col-12-medium">
-									<p>Beyond academics, I enjoy calligraphy, reading about technology, 
-										and participating in hackathons to challenge myself and collaborate 
-										with others. These activities fuel my creativity and keep me inspired.</p>
-								</div>
-							</div>
+							</header>
+						</div>
+						<div class="col-4 col-12-medium">
+							<p> A final year student pursuing a BS in IT at Ghazi University, DGK .
+								With a solid foundation in HTML and CSS, I have also gained experience in C++
+								and am currently expanding my skills in Python. My goal is to become a
+								proficient AI/ML Engineer while also excelling in frontend development.</p>
+						</div>
+						<div class="col-4 col-12-medium">
+							<p>In addition to my technical skills, I have hands-on experience working with
+								MS SQL Server databases and SQL, which has further fueled my passion for
+								data management and analysis. Currently, I am working on exciting projects
+								with Headstarter, where I was honored to be selected as a SWE Fellow in Headstarter AI.
+							</p>
 						</div>
 					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</section>
+				</div>
+			</div>
+			<a href="#two" class="goto-next scrolly">Next</a>
+		</section>
 
-			<!-- Two -->
-				<section id="two" class="spotlight style2 right">
-					<span class="image fit main"><img src="images/pic01.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2>Connect With me</h2>
-							<p> Explore the full spectrum of my professional journey and accomplishments</p>
-						</header>
-						<p>Visit my LinkedIn profile to delve into detailed information about my education, work experience, skills, and projects. 
-							Here, you'll find a showcase of my expertise software development.</p>
-						<ul class="actions">
-							<li><a href="https://www.linkedin.com/in/amna-sabahat-6b3713253/" class="button">View LinkedIn</a></li>
-						</ul>
-					</div>
-					<a href="#three" class="goto-next scrolly">Next</a>
-				</section>
 
-			<!-- Three -->
-				<section id="three" class="spotlight style3 left">
-					<span class="image fit main bottom"><img src="images/pic07.jpg" alt="" /></span>
-					<div class="content">
-						<header>
-							<h2> Explore My Profile</h2>
-							<p>Delve into a detailed overview of my expertise in machine learning and software development. Review the key skills and accomplishments demonstrated through my projects, 
-								and gain insights into how my abilities can drive impactful solutions.</p>
-						</header>
-						<p></p>
-						<ul class="actions">
-							<li><a href="amnasabahat .pdf" class="button">Resume</a></li>
-						</ul>
-					</div>
-					<a href="#four" class="goto-next scrolly">Next</a>
-				</section>
 
-			<!-- Four -->
-				<section id="four" class="wrapper style1 special fade-up">
-					<div class="container">
-						<header class="major">
-							<h2>Technical Skills</h2>
-							<p>My Proficiency in Tools & Technologies</p>
-						</header>
-						<div class="box alt">
-							<div class="row gtr-uniform">
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-chart-area"></span>
-									<h3>Languages</h3>
-									<p>HTML,CSS, Python, Javascript, SQL,C++</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-comment"></span>
-									<h3>Tools</h3>
-									<p>VSCode, Android Studio, Jupiter Notebook, Google Colab, Tableau, Dev,Visual Studio</p>
-								</section>
-								<section class="col-4 col-6-medium col-12-xsmall">
-									<span class="icon solid alt major fa-flask"></span>
-									<h3>Technologies</h3>
-									<p>Seaborn , Matplotlib, numpy, Data Visualization, Pandas, ML algorithms </p>
-								</section>
-								
-							
+		<!-- Three -->
+		<section id="three" class="spotlight style3 left">
+			<span class="image fit main bottom"><img src="images/pic07.jpg" alt="" /></span>
+			<div class="content">
+				<header>
+					<h2> Explore My Profile</h2>
+					<p>Delve into a detailed overview of my expertise in machine learning and software development.
+						Review the key skills and accomplishments demonstrated through my projects,
+						and gain insights into how my abilities can drive impactful solutions.</p>
+				</header>
+				<p></p>
+				<ul class="actions">
+					<li><a href="amnasabahat .pdf" class="button">Resume</a></li>
+				</ul>
+			</div>
+			<a href="#four" class="goto-next scrolly">Next</a>
+		</section>
+
+
+		<!-- Four -->
+		<section id="four" class="wrapper style1 special fade-up">
+			<div class="container">
+				<header class="major">
+					<h2>Projects</h2>
+				</header>
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<section class="col-4 col-6-medium col-12-xsmall" style="text-align: center;">
+							<img src="images/Regional.PNG" alt="" style="width: 370px; height: 150px;">
+							<ul class="actions"
+								style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+								<li>
+									<a href="https://public.tableau.com/app/profile/amna.sabahat/viz/RegionalSalesSummaryDashboard/RegionalSalesSummaryDashboard"
+										class="centered button" target="_blank">RegionalSalesDashboard</a>
+
+								</li>
+							</ul>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall" style="text-align: center;">
+							<img src="images/landingclubdashboard.png" alt="" style="width: 370px; height: 150px;">
+							<ul class="actions"
+								style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+								<li>
+									<a href="https://public.tableau.com/app/profile/amna.sabahat/viz/LendingclubSummaryDashboard/Lendingclubdashboard"
+										class="centered button" target="_blank">LendingClubDashboard</a>
+
+								</li>
+							</ul>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall" style="text-align: center;">
+							<img src="images/restaurants.PNG" alt="" style="width: 370px; height: 150px;">
+							<ul class="actions"
+								style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+								<li>
+									<a href="https://public.tableau.com/app/profile/amna.sabahat/viz/VisitedRestaurantsByCountry/Sheet1"
+										class="centered button" target="_blank">Visited Restaurants By Country</a>
+
+								</li>
+							</ul>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall" style="text-align: center;">
+							<img src="images/AI travel planner.PNG" alt="" style="width: 370px; height: 150px;">
+							<ul class="actions"
+								style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+								<li>
+									<a href="https://lablab.ai/event/gemini-ultra-hackathon/team-aiistics/ai-travel-planner"
+										class="centered button" target="_blank">AI Travel Planner</a>
+
+								</li>
+							</ul>
+						</section>
+						<section class="col-4 col-6-medium col-12-xsmall" style="text-align: center;">
+							<img src="images/pantryapp.PNG" alt="" style="width: 370px; height: 150px;">
+							<ul class="actions"
+								style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+								<li>
+									<a href="https://pantry-trackerapp.vercel.app/" class="centered button"
+										target="_blank">PantryTrackerApp</a>
+
+								</li>
+							</ul>
+						</section>
+						<br>
+						<br>
+						<!-- five -->
+							<br>
+							<br>
+						<section id="five" class="wrapper style1 special fade-up">
+							<div class="container">
+								<header class="major">
+									<br>
+									<h2>Tools & Technologies</h2>
+								</header>
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<section class="col-4 col-6-medium col-12-xsmall" style="text-align: center;">
+											<span class="icon solid alt major fa-chart-area"></span>
+											<h3>Languages</h3>
+											<p>HTML,CSS, Python, Javascript, SQL,C++</p>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fa-comment"></span>
+											<h3>Tools</h3>
+											<p>VSCode, Android Studio, Jupiter Notebook, Google Colab, Tableau,
+												Dev,Visual Studio</p>
+										</section>
+										<section class="col-4 col-6-medium col-12-xsmall">
+											<span class="icon solid alt major fa-flask"></span>
+											<h3>Technologies</h3>
+											<p>Seaborn , Matplotlib, Data Visualization </p>
+										</section>
+
+
+									</div>
+								</div>
+								<footer class="major">
+									<ul class="actions special">
+										<li><a href="https://github.com/Amnasabahat"
+												class="button">Explore More</a></li>
+									</ul>
+								</footer>
 							</div>
-						</div>
-						<footer class="major">
-							<ul class="actions special">
-								<li><a href="https://github.com/Amnasabahat?tab=repositories" class="button">Explore Projects</a></li>
+						</section>
+						<br>
+						<br>
+						<!-- Footer -->
+						
+						<footer id="footer">
+							<ul class="icons">
+								<li><a href="https://www.linkedin.com/in/amna-sabahat-6b3713253/"
+										class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a>
+								</li>
+								<li><a href="https://github.com/Amnasabahat" class="icon brands alt fa-github"><span
+											class="label">GitHub</span></a></li>
+								<li><a href="https://www.kaggle.com/amnaasabahat"
+										class="icon brands alt fa-kaggle"><span class="label">Kaggle</span></a></li>
+								<li><a href="mailto:amnasabahat414@gmail.com" class="icon solid alt fa-envelope"><span
+											class="label">Email</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>@ Amna Sabahat. All rights reserved.</li>
 							</ul>
 						</footer>
+
+
 					</div>
-				</section>
 
-	
+					<!-- Scripts -->
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+					<script src="assets/js/jquery.min.js"></script>
+					<script src="assets/js/jquery.scrolly.min.js"></script>
+					<script src="assets/js/jquery.dropotron.min.js"></script>
+					<script src="assets/js/jquery.scrollex.min.js"></script>
+					<script src="assets/js/browser.min.js"></script>
+					<script src="assets/js/breakpoints.min.js"></script>
+					<script src="assets/js/util.js"></script>
+					<script src="assets/js/main.js"></script>
 
-			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="https://www.linkedin.com/in/amna-sabahat-6b3713253/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="https://github.com/Amnasabahat" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="mailto:amnasabahat414@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>@ Amna Sabahat. All rights reserved.</li><li><a href=""></a></li>
-					</ul>
-				</footer>
+</body>
 
-		</div>
-
-		<!-- Scripts -->
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
